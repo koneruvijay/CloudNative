@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Event Listeners"/>
+<aop-project name="Zuul_Proxy"/>
+<aop-project name="springbootadmin2.0.1"/>
+<aop-project name="CTS_Springbootapi_Swagger"/>
+<aop-project name="SpringBootAPI_Consumer"/>
+</aop-reference-model>

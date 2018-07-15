@@ -1,0 +1,61 @@
+server:
+  port: 7008
+############ logging configuration ###############
+logging:
+  file: /appllogs/spp/${spring.application.name}.log
+  level:
+    com.cvs.specialty: DEBUG
+ ############# application name ###############
+spring:
+  application:
+    name: specialty-springboot-admin
+
+spring.boot.admin.routes.endpoints: env,metrics,trace,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream
+
+---
+spring:
+  profiles: prod
+  cloud:
+    config:
+     enabled: true
+     format: ${config.server.format}
+     fail-fast: true
+     uri: http://10.228.132.55:8003
+---
+spring:
+  profiles: uat
+  cloud:
+    config:
+     enabled: true
+     format: ${config.server.format}
+     fail-fast: true
+     uri: http://10.228.132.55:8003
+---
+spring:
+  profiles:
+    active:
+      -  sit
+  cloud:
+    config:
+      enabled: true
+      format: ${config.server.format}
+      fail-fast: true
+      uri: http://10.228.132.55:8003
+---
+spring:
+  profiles: dev
+  cloud:
+    config:
+     enabled: true
+     format: ${config.server.format}
+     fail-fast: true
+     uri: http://10.228.132.24:8003
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      enabled: true
+      format: ${config.server.format}
+      fail-fast: true
+      uri: http://10.228.132.24:8003

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/SpringBootAPI_Consumer"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /Zuul_Proxy"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /spring-cloud-config-server-gitrepo"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /springbootadmin2.0.1"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /Event Listeners"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /CTS_Springbootapi_Swagger"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /Zuul_Proxy/src/main/resources/application.yml"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /zuulproxy"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /specialty-springboot-admin-master"/>
+			<item value="/Users/Koneru/Documents/Java-WorkSpace/Cloud Native /zullproxy"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

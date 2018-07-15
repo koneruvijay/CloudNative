@@ -1,0 +1,19 @@
+server:
+  port: 8443
+spring:
+  application:
+    name: ZuulProxy
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        enabled: true
+        health-check-interval: 30s
+        scheme: http
+        register-health-check: true
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:7008/

@@ -1,0 +1,16 @@
+server:
+  port: 9003
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/koneruvijay/CloudNative.git
+          #git username and password
+          username: koneruvijay
+          password: "koneru##9923"
+          search-paths: CloudNative
+          force-pull: true
+          
+          
